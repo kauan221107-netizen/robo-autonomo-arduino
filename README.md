@@ -15,3 +15,13 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 - Funciona de forma autônoma, sem celular ou controle remoto
 
 > **Observação:** na versão atual, depois de detectar um obstáculo, o robô entra em modo de recuo permanente. Ele ainda não faz curvas nem desvia automaticamente.
+
+## 🧰 Tecnologias e componentes
+- **Linguagem:** C++ (Arduino IDE / VS Code)
+- Arduino Uno
+- 2 motores DC com rodas
+- Driver de motor L298N
+- Sensor ultrassônico HC-SR04
+- Bateria para alimentação
+- Chassi com estrutura de suporte
+- Jumpers e fios
