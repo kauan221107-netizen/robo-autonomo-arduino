@@ -16,7 +16,7 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 
 > **Observação:** na versão atual, depois de detectar um obstáculo, o robô entra em modo de recuo permanente. Ele ainda não faz curvas nem desvia automaticamente.
 
-## 🧰 Tecnologias e componentes
+##  Tecnologias e componentes
 - **Linguagem:** C++ (Arduino IDE / VS Code)
 - Arduino Uno
 - 2 motores DC com rodas
@@ -25,3 +25,5 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 - Bateria para alimentação
 - Chassi com estrutura de suporte
 - Jumpers e fios
+
+## 📷 Demonstração
