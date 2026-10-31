@@ -33,7 +33,7 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 
 ## ⚙️ Como usar
 1. Monte o circuito com os componentes acima.
-2. Abra o arquivo `[nome-do-arquivo].ino` na Arduino IDE.
+2. Abra o arquivo robo-autonomo-arduino.ino na Arduino IDE.
 3. Selecione a placa **Arduino Uno** e a porta correta.
 4. Clique em **Upload** e ligue a bateria.
 
