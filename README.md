@@ -36,3 +36,7 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 2. Abra o arquivo `[nome-do-arquivo].ino` na Arduino IDE.
 3. Selecione a placa **Arduino Uno** e a porta correta.
 4. Clique em **Upload** e ligue a bateria.
+
+## 🔌 Esquema de ligação
+- Sensor HC-SR04: Trig → pino [__], Echo → pino [__]
+- Driver L298N: IN1 → [__], IN2 → [__], IN3 → [__], IN4 → [__]
