@@ -30,3 +30,9 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 <p align="center">
 <img alt="robo" fdaf src="robo.png">
 </p>
+
+## ⚙️ Como usar
+1. Monte o circuito com os componentes acima.
+2. Abra o arquivo `[nome-do-arquivo].ino` na Arduino IDE.
+3. Selecione a placa **Arduino Uno** e a porta correta.
+4. Clique em **Upload** e ligue a bateria.
