@@ -27,3 +27,6 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 - Jumpers e fios
 
 ## 📷 Demonstração
+<p align="center">
+<img alt="robo" fdaf src="robo.png">
+</p>
