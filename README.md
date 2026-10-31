@@ -45,4 +45,6 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 **Desafios:** realizar as conexões dos componentes, controlar os dois motores pelo driver L298N e ajustar a leitura do sensor ultrassônico para identificar corretamente os obstáculos.
 
 **Aprendizados:** programação em C++ com Arduino, funcionamento de sensores, controle de motores, circuitos eletrônicos e integração entre hardware e software.
- 
+
+## 📫 Contato
+Kauan José da Silva · [LinkedIn](https://www.linkedin.com/in/kauan-silva-903134266/) · kauan221107@hotmail.com
