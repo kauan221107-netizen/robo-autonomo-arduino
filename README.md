@@ -39,21 +39,21 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 4. Clique em **Upload** e ligue a bateria.
 
 ##  Esquema de ligação
-Componente	Pino do Arduino
-HC-SR04 (Trig)	8
-HC-SR04 (Echo)	9
-L298N ENA (Motor A)	6 (PWM)
-L298N IN1	7
-L298N IN2	5
-L298N ENB (Motor B)	3 (PWM)
-L298N IN3	4
-L298N IN4	2
+- Componente e Pino do Arduino
+- HC-SR04 (Trig)	8
+- HC-SR04 (Echo)	9
+- L298N ENA (Motor A)	6 (PWM)
+- L298N IN1	7
+- L298N IN2	5
+- L298N ENB (Motor B)	3 (PWM)
+- L298N IN3	4
+- L298N IN4	2
 
 ## Como funciona a lógica
-1- O sensor mede a distância à frente do robô.
-2- Leituras inválidas (0) são ignoradas.
-3- Se a distância for maior que 26 cm, o robô anda para frente.
-4- Se for 26 cm ou menos, o robô recua e uma variável de controle (eventoDisparado) mantém o recuo permanente.
+- O sensor mede a distância à frente do robô.
+- Leituras inválidas (0) são ignoradas.
+- Se a distância for maior que 26 cm, o robô anda para frente.
+- Se for 26 cm ou menos, o robô recua e uma variável de controle (eventoDisparado) mantém o recuo permanente.
 
 ##  Desafios e aprendizados
 **Desafios:** realizar as conexões dos componentes, controlar os dois motores pelo driver L298N e ajustar a leitura do sensor ultrassônico para identificar corretamente os obstáculos.
