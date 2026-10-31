@@ -12,6 +12,7 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 - Anda para frente quando não há obstáculos próximos
 - Detecta objetos à frente com o sensor ultrassônico HC-SR04
 - Recua ao encontrar um obstáculo a aproximadamente 26 cm ou menos
+- Ignora leituras inválidas do sensor (valor 0) e usa timeout para evitar travamentos
 - Funciona de forma autônoma, sem celular ou controle remoto
 
 > **Observação:** na versão atual, depois de detectar um obstáculo, o robô entra em modo de recuo permanente. Ele ainda não faz curvas nem desvia automaticamente.
@@ -26,25 +27,38 @@ Aprender, na prática, a integração entre hardware e software: leitura de sens
 - Chassi com estrutura de suporte
 - Jumpers e fios
 
-## 📷 Demonstração
+##  Demonstração
 <p align="center">
 <img alt="robo" fdaf src="robo.png">
 </p>
 
-## ⚙️ Como usar
+##  Como usar
 1. Monte o circuito com os componentes acima.
 2. Abra o arquivo robo-autonomo-arduino.ino na Arduino IDE.
 3. Selecione a placa **Arduino Uno** e a porta correta.
 4. Clique em **Upload** e ligue a bateria.
 
-## 🔌 Esquema de ligação
-- Sensor HC-SR04: Trig → pino [__], Echo → pino [__]
-- Driver L298N: IN1 → [__], IN2 → [__], IN3 → [__], IN4 → [__]
+##  Esquema de ligação
+Componente	Pino do Arduino
+HC-SR04 (Trig)	8
+HC-SR04 (Echo)	9
+L298N ENA (Motor A)	6 (PWM)
+L298N IN1	7
+L298N IN2	5
+L298N ENB (Motor B)	3 (PWM)
+L298N IN3	4
+L298N IN4	2
 
-## 🚧 Desafios e aprendizados
+## Como funciona a lógica
+1- O sensor mede a distância à frente do robô.
+2- Leituras inválidas (0) são ignoradas.
+3- Se a distância for maior que 26 cm, o robô anda para frente.
+4- Se for 26 cm ou menos, o robô recua e uma variável de controle (eventoDisparado) mantém o recuo permanente.
+
+##  Desafios e aprendizados
 **Desafios:** realizar as conexões dos componentes, controlar os dois motores pelo driver L298N e ajustar a leitura do sensor ultrassônico para identificar corretamente os obstáculos.
 
 **Aprendizados:** programação em C++ com Arduino, funcionamento de sensores, controle de motores, circuitos eletrônicos e integração entre hardware e software.
 
-## 📫 Contato
+##  Contato
 Kauan José da Silva · [LinkedIn](https://www.linkedin.com/in/kauan-silva-903134266/) · kauan221107@hotmail.com
